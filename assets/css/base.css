@@ -1,65 +1,65 @@
-:root{
-    --primary-color: #39b54a;
-    --white-color: #fff;
-    --black-color: #000;
-    --text-color: #909090;
-    --header-color: #111111;
-    --light-gray-color: #d0d2d3;
+:root {
+  --primary-color: #39b54a;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #909090;
+  --header-color: #111111;
+  --light-gray-color: #d0d2d3;
 }
-*{
-    box-sizing: inherit;
-    scroll-behavior: smooth;
+* {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
 }
-html{
-    /* -> 1 rem = 10px */
-    font-size: 62.5%;
-    line-height: 1.6rem;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    overflow-x: hidden;
+html {
+  /* -> 1 rem = 10px */
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-.button{
-    min-width: 55px;
-    height: 34px;
-    border: none;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    padding: 0 15px;
-    outline: none;
-    cursor: pointer;
-    color: var(--white-color);
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+.button {
+  min-width: 55px;
+  height: 34px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 0 15px;
+  outline: none;
+  cursor: pointer;
+  color: var(--white-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
-.button.button--primary{
-    background-color: var(--primary-color);
+.button.button--primary {
+  background-color: var(--primary-color);
 }
-.button.button--primary:hover{
-    background-color: #309a3f;
-    transition: linear .3s;
+.button.button--primary:hover {
+  background-color: #309a3f;
+  transition: linear 0.3s;
 }
-.heading{
-    position: relative;
-    font-size: 3.4rem;
-    line-height: 4.5rem;
-    font-weight: 700;
-    color: #151515;
-    padding-left: 40px;
+.heading {
+  position: relative;
+  font-size: 3.4rem;
+  line-height: 4.5rem;
+  font-weight: 700;
+  color: #151515;
+  padding-left: 40px;
 }
-.heading::after{
-    display: block;
-    content: "";
-    height: 2px;
-    width: 70px;
-    background-color: var(--primary-color);
-    position: absolute;
-    margin-top: 40px;
+.heading::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: var(--primary-color);
+  position: absolute;
+  margin-top: 40px;
 }

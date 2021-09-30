@@ -1,391 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dazzle</title>
     <!-- Reset Css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Mulish&display=swap"
+      rel="stylesheet"
+    />
     <!-- Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css"
+    />
     <!-- Link css -->
-    <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <header id="header" class="grid wide">
-                <div class="header__logo">
-                    <a href="index.html">Dazzle.</a>
-                </div>
-                <nav class="header__nav hide-on-tablet-and-mobile">
-                    <ul class="header__nav-main">
-                        <li class="header__nav-main-item current">
-                            <a href="#" class="header__nav-main-link">Home</a>
-                        </li>
-                        <li class="header__nav-main-item">
-                            <a href="#ABOUT" class="header__nav-main-link">About</a>
-                        </li>
-                        <li class="header__nav-main-item">
-                            <a href="#PRICING" class="header__nav-main-link">Pricing</a>
-                        </li>
-                        <li class="header__nav-main-item">
-                            <a href="#TESTIMONIALS" class="header__nav-main-link">Testimonials</a>
-                        </li>
-                        <li class="header__nav-main-item">
-                            <a href="#DOWLOAD" class="header__nav-main-link">Dowload</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="button button--primary">Sign up</a>
-                </nav>   
-        </header>
-        <div class="wrapper__container">
-            <div class="home">
-                <div class="home__content grid wide">
-                    <div class="row contents">
-                        <div class="content__left col l-6 m-12 c-12">
-                            <h3 class="content__left-welcome">WELCOME TO DAZZLE</h3>
-                            <h1 class="content__left-title">Creative Landing
-                                Page to Showcase
-                                Your Amazing App.
-                                </h1>
-                                <div class="content__left-button">
-                                    <a class="button">
-                                        <i class="ti-download content__left-button-icon"></i>
-                                        <span class="content__left-button-text">Dowload App</span>
-                                    </a>
-                                    <a class="button">
-                                        <i class="ti-download content__left-button-icon"></i>
-                                        <span class="content__left-button-text">Dowload App</span>
-                                    </a>
-                                </div>
-                        </div>
-                        <div class="content__right col l-6 m-12 c-12">
-                            <img src="./assets/img/iphone-app-940.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <ul class="home__social-list">
-                    <li class="home__social-item">
-                        <a href="#">
-                            <i class="fab fa-facebook-square home__social-icon"></i>
-                        </a>
-                    </li>
-                    <li class="home__social-item">
-                        <a href="#">
-                            <i class="fab fa-twitter home__social-icon"></i>
-                        </a>
-                    </li>
-                    <li class="home__social-item">
-                        <a href="#">
-                            <i class="fab fa-instagram home__social-icon"></i>
-                        </a>
-                    </li>
-                    <li class="home__social-item">
-                        <a href="#">
-                            <i class="fab fa-youtube home__social-icon"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="about grid wide" id="ABOUT">
-                <div class=" row about__intro">
-                    <h1 class="col l-4 m-12 c-12 about__intro-heading heading">About Our App</h1>
-                    <p class="col l-8 m-12 c-12 about__intro-text">Excepteur enim magna veniam labore veniam sint. Ex aliqua esse proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor dolor proident deserunt occaecat elit Lorem reprehenderit. Id culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur enim magna veniam labore veniam sint.</p>
-                </div>
-                <div class="about__features grid">
-                    <div class="row l-gutter">
-                        <div class="col l-4 m-6 c-12 m-6 c-12">
-                                <i class="far fa-window-maximize icon"></i>
-                                <div class="content">
-                                    <h3 class="content__heading">Fully Resposive</h3>
-                                    <p class="content__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                                </div>
-                        </div>
-                        <div class="col l-4 m-6 c-12">
-                            <i class="far fa-image icon"></i>
-                            <div class="content">
-                                <h3 class="content__heading">Retina Ready</h3>
-                                <p class="content__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                            </div>
-                        </div>
-                        <div class="col l-4 m-6 c-12">
-                            <i class="fas fa-paint-brush icon"></i>
-                            <div class="content">
-                                <h3 class="content__heading">Stylish Design</h3>
-                                <p class="content__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                            </div>
-                        </div>
-                        <div class="col l-4 m-6 c-12">
-                            <i class="far fa-file-alt icon"></i>
-                            <div class="content">
-                                <h3 class="content__heading">Clean Code</h3>
-                                <p class="content__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                            </div>
-                        </div>
-                        <div class="col l-4 m-6 c-12">
-                            <i class="fas fa-sliders-h icon"></i>
-                            <div class="content">
-                                <h3 class="content__heading">Easy To Customize</h3>
-                                <p class="content__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                            </div>
-                        </div>
-                        <div class="col l-4 m-6 c-12">
-                            <i class="fas fa-gift icon"></i>
-                            <div class="content">
-                                <h3 class="content__heading">Free of Charge</h3>
-                                <p class="content__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about__how grid">
-                    <div class="row">
-                        <h1 class="about__how-heading">How The App Works?</h1>
-                        <div class="about__how-content grid">
-                            <div class="about__how-content-step row l-gutter">
-                                <div class="about__how-content-step col l-6">
-                                    <div class="about__how-step-number">
-                                        <span class="step">1</span>
-                                        <h3>Sign-Up</h3>
-                                    </div>
-                                    <div class="about__how-content-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="about__how-content-step col l-6">
-                                    <div class="about__how-step-number">
-                                        <span class="step">2</span>
-                                        <h3>Upload</h3>
-                                    </div>
-                                    <div class="about__how-content-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                                        </p>
-                                    </div>
-                                </div>  
-                                <div class="about__how-content-step col l-6">
-                                    <div class="about__how-step-number">
-                                        <span class="step">3</span>
-                                        <h3>Creat</h3>
-                                    </div>
-                                    <div class="about__how-content-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                                    </p>
-                                    </div>
-                                </div>
-                                <div class="about__how-content-step col l-6">
-                                    <div class="about__how-step-number">
-                                        <span class="step">4</span>
-                                        <h3>Publisg</h3>
-                                    </div>
-                                    <div class="about__how-content-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about__image">
-                    <img src="./assets/img/app-screens-2800.png" alt="">
-                </div>
-            </div>
-            <div class="pricing grid" id="PRICING">
-                <div class="row pricing__content">
-                    <div class="col l-5 m-12 c-12">
-                        <div class="heading pricing__content-heading">Our Pricing Options</div>
-                        <p class="pricing__content-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                    </div>
-                    <div class="col l-7 m-12 c-12">
-                        <div class="grid pricing__plan">
-                            <div class="row l-gutter">
-                                <div class="col l-6 m-12 c-12 pricing__plan-wrap">
-                                        <div class="pricing__plan-block">
-                                            <div class="pricing__plan-top-part">
-                                                <h3 class="plan-title">Lite Plan</h3>
-                                                <p class="plan-price"><sup>$</sup>25</p>
-                                                <p class="plan-per">Per Month</p>
-                                            </div>
-                                            <div class="pricing__plan-bottom-part">
-                                                <ul class="plan-features">
-                                                    <li><span>3GB</span> Storage</li>
-                                                    <li><span>10GB</span> Bandwidth</li>	                  
-                                                    <li><span>5</span> Databases</li>		                  
-                                                    <li><span>30</span> Email Accounts</li>
-                                                </ul>
-                                                <a class="button button--primary pricing-button" href="">Get Started</a>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col l-6 m-12 c-12 pricing__plan-wrap">
-                                        <div class="pricing__plan-block pricing__plan-block--primary">
-                                            <div class="pricing__plan-top-part">
-                                                <h3 class="plan-title  white">Lite Plan</h3>
-                                                <p class="plan-price  white"><sup>$</sup>25</p>
-                                                <p class="plan-per  white">Per Month</p>
-                                            </div>
-                                            <div class="pricing__plan-bottom-part">
-                                                <ul class="plan-features">
-                                                    <li><span>3GB</span> Storage</li>
-                                                    <li><span>10GB</span> Bandwidth</li>	                  
-                                                    <li><span>5</span> Databases</li>		                  
-                                                    <li><span>30</span> Email Accounts</li>
-                                                </ul>
-                                                <a class="button button--primary pricing-button pricing-button--primary" href="">Get Started</a>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
-            <div class="testimonials" id="TESTIMONIALS">
-                <div class="gird testimonials__content">
-                    <div class="row">
-                        <div class="col l-12 m-12 c-12">
-                            <h1 class="testimonials__content-heading heading">What They Say About Our App.</h1>
-                        </div>
-                    </div>
-                    <div class="row owl__wrap">
-                        <div class="testimonials__slider col l-12 m-12 c-12">
-                            <div class="slider__content">
-                                <div class="owl__item">
-                                    <p>
-                                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                                    </p>
-                                    <div class="testimonial-author">
-                                        <img src="./assets/img/user-02.jpg" alt="Author image">
-                                        <div class="author-info">
-                                            Steve Jobs
-                                            <span>CEO, Apple.</span>
-                                        </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonials__slider col l-12 m-12 c-12">
-                            <div class="slider__content">
-                                <div class="owl__item">
-                                    <p>
-                                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                                    </p>
-                                    <div class="testimonial-author">
-                                        <img src="./assets/img/user-02.jpg" alt="Author image">
-                                        <div class="author-info">
-                                            Steve Jobs
-                                            <span>CEO, Apple.</span>
-                                        </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="dowload grid" id="DOWLOAD">
-                <div class="row">
-                    <div class="col l-12 m-12 c-12">
-                        <div class="dowload__heading heading">Download Our App Today!</div>
-                        <div class="dowload__content">
-                            <p class="dowload__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel alias quo assumenda modi pariatur quasi! Ipsa provident voluptatibus tempora ab quis aut beatae, aspernatur ipsum, iste omnis magnam hic ea!</p>
-                            <ul class="download-badges">
-                                <li><a href="#"><img src="./assets/img/appstore.png" alt=""></a></li>
-                                <li><a href="#"><img src="./assets/img/google-play.png" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <header id="header" class="grid wide">
+        <div class="header__logo">
+          <a href="index.html">Dazzle.</a>
         </div>
-        <footer class="footer">
-            <div class="grid wide footer__content">
-              <div class="row">
-                <div class="col l-3 m-12 c-6">
-                    <div class="footer__heading footer__info">
-                    <a href="#">Dazzle.</a>
-                    </div>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. 
-                    </p>
-                    <ul class="footer-social-list">
-                        <li>
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-behance"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-dribbble"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </li>
-                    </ul>
+        <nav class="header__nav hide-on-tablet-and-mobile">
+          <ul class="header__nav-main">
+            <li class="header__nav-main-item current">
+              <a href="#" class="header__nav-main-link">Home</a>
+            </li>
+            <li class="header__nav-main-item">
+              <a href="#ABOUT" class="header__nav-main-link">About</a>
+            </li>
+            <li class="header__nav-main-item">
+              <a href="#PRICING" class="header__nav-main-link">Pricing</a>
+            </li>
+            <li class="header__nav-main-item">
+              <a href="#TESTIMONIALS" class="header__nav-main-link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="header__nav-main-item">
+              <a href="#DOWLOAD" class="header__nav-main-link">Dowload</a>
+            </li>
+          </ul>
+          <a href="#" class="button button--primary">Sign up</a>
+        </nav>
+      </header>
+      <div class="wrapper__container">
+        <div class="home">
+          <div class="home__content grid wide">
+            <div class="row contents">
+              <div class="content__left col l-6 m-12 c-12">
+                <h3 class="content__left-welcome">WELCOME TO DAZZLE</h3>
+                <h1 class="content__left-title">
+                  Creative Landing Page to Showcase Your Amazing App.
+                </h1>
+                <div class="content__left-button">
+                  <a class="button">
+                    <i class="ti-download content__left-button-icon"></i>
+                    <span class="content__left-button-text">Dowload App</span>
+                  </a>
+                  <a class="button">
+                    <i class="ti-download content__left-button-icon"></i>
+                    <span class="content__left-button-text">Dowload App</span>
+                  </a>
                 </div>
-                <div class="col l-3 m-6 c-6">
-                    <h4 class="footer__heading">Contact</h4>
-                    <p>
-                        1600 Amphitheatre Parkway<br>
-                        Mountain View, CA <br>
-                        94043 US<br>		        
-                    </p>
-                    <p>
-                        someone@dazzlesite.com <br>
-                        Phone: (+63) 555 1212 <br>
-                        Fax: (+63) 555 0100    
-                    </p>
+              </div>
+              <div class="content__right col l-6 m-12 c-12">
+                <img src="./assets/img/iphone-app-940.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <ul class="home__social-list">
+            <li class="home__social-item">
+              <a href="#">
+                <i class="fab fa-facebook-square home__social-icon"></i>
+              </a>
+            </li>
+            <li class="home__social-item">
+              <a href="#">
+                <i class="fab fa-twitter home__social-icon"></i>
+              </a>
+            </li>
+            <li class="home__social-item">
+              <a href="#">
+                <i class="fab fa-instagram home__social-icon"></i>
+              </a>
+            </li>
+            <li class="home__social-item">
+              <a href="#">
+                <i class="fab fa-youtube home__social-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="about grid wide" id="ABOUT">
+          <div class="row about__intro">
+            <h1 class="col l-4 m-12 c-12 about__intro-heading heading">
+              About Our App
+            </h1>
+            <p class="col l-8 m-12 c-12 about__intro-text">
+              Excepteur enim magna veniam labore veniam sint. Ex aliqua esse
+              proident ullamco voluptate. Nisi nisi nisi aliqua eiusmod dolor
+              dolor proident deserunt occaecat elit Lorem reprehenderit. Id
+              culpa veniam ex aliqua magna elit pariatur do nulla. Excepteur
+              enim magna veniam labore veniam sint.
+            </p>
+          </div>
+          <div class="about__features grid">
+            <div class="row l-gutter">
+              <div class="col l-4 m-6 c-12 m-6 c-12">
+                <i class="far fa-window-maximize icon"></i>
+                <div class="content">
+                  <h3 class="content__heading">Fully Resposive</h3>
+                  <p class="content__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
                 </div>
-                <div class="col l-3 m-6 c-6">
-                  <h4 class="footer__heading">Site Links</h4>
-                  <ul class="list-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
+              </div>
+              <div class="col l-4 m-6 c-12">
+                <i class="far fa-image icon"></i>
+                <div class="content">
+                  <h3 class="content__heading">Retina Ready</h3>
+                  <p class="content__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
                 </div>
-                <div class="col l-3 m-12 c-6 footer-subscribe">
-                    <h3 class="footer__heading">Our Newsletter</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="subscribe-form">
-                        <form id="form" novalidate="true">
-                            <input type="email" value="" name="EMAIL" class="email" placeholder="Email Address" required=""> 
-                            <input class="button" type="submit" name="subscribe" value="Send">
-                        </form>
-
-                    </div>
+              </div>
+              <div class="col l-4 m-6 c-12">
+                <i class="fas fa-paint-brush icon"></i>
+                <div class="content">
+                  <h3 class="content__heading">Stylish Design</h3>
+                  <p class="content__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
+                </div>
+              </div>
+              <div class="col l-4 m-6 c-12">
+                <i class="far fa-file-alt icon"></i>
+                <div class="content">
+                  <h3 class="content__heading">Clean Code</h3>
+                  <p class="content__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
+                </div>
+              </div>
+              <div class="col l-4 m-6 c-12">
+                <i class="fas fa-sliders-h icon"></i>
+                <div class="content">
+                  <h3 class="content__heading">Easy To Customize</h3>
+                  <p class="content__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
+                </div>
+              </div>
+              <div class="col l-4 m-6 c-12">
+                <i class="fas fa-gift icon"></i>
+                <div class="content">
+                  <h3 class="content__heading">Free of Charge</h3>
+                  <p class="content__text">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo
+                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                    aut fugit.
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="footer__bottom">
-              <div class="grid wide">
-                  <div class="copywrite">
-                    <p class="footer__text">© Copyright Dazzle 2018.</p>
-                    <p>Design by <a href="http://www.styleshout.com/">styleshout</a></p>
+          </div>
+          <div class="about__how grid">
+            <div class="row">
+              <h1 class="about__how-heading">How The App Works?</h1>
+              <div class="about__how-content grid">
+                <div class="about__how-content-step row l-gutter">
+                  <div class="about__how-content-step col l-6">
+                    <div class="about__how-step-number">
+                      <span class="step">1</span>
+                      <h3>Sign-Up</h3>
+                    </div>
+                    <div class="about__how-content-text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                    </div>
                   </div>
+                  <div class="about__how-content-step col l-6">
+                    <div class="about__how-step-number">
+                      <span class="step">2</span>
+                      <h3>Upload</h3>
+                    </div>
+                    <div class="about__how-content-text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="about__how-content-step col l-6">
+                    <div class="about__how-step-number">
+                      <span class="step">3</span>
+                      <h3>Creat</h3>
+                    </div>
+                    <div class="about__how-content-text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="about__how-content-step col l-6">
+                    <div class="about__how-step-number">
+                      <span class="step">4</span>
+                      <h3>Publisg</h3>
+                    </div>
+                    <div class="about__how-content-text">
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et
+                        quasi architecto beatae vitae dicta sunt explicabo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </footer>
+          </div>
+          <div class="about__image">
+            <img src="./assets/img/app-screens-2800.png" alt="" />
+          </div>
+        </div>
+        <div class="pricing grid" id="PRICING">
+          <div class="row pricing__content">
+            <div class="col l-5 m-12 c-12">
+              <div class="heading pricing__content-heading">
+                Our Pricing Options
+              </div>
+              <p class="pricing__content-text">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste
+                natus error sit voluptatem accusantium doloremque laudantium.
+              </p>
+            </div>
+            <div class="col l-7 m-12 c-12">
+              <div class="grid pricing__plan">
+                <div class="row l-gutter">
+                  <div class="col l-6 m-12 c-12 pricing__plan-wrap">
+                    <div class="pricing__plan-block">
+                      <div class="pricing__plan-top-part">
+                        <h3 class="plan-title">Lite Plan</h3>
+                        <p class="plan-price"><sup>$</sup>25</p>
+                        <p class="plan-per">Per Month</p>
+                      </div>
+                      <div class="pricing__plan-bottom-part">
+                        <ul class="plan-features">
+                          <li><span>3GB</span> Storage</li>
+                          <li><span>10GB</span> Bandwidth</li>
+                          <li><span>5</span> Databases</li>
+                          <li><span>30</span> Email Accounts</li>
+                        </ul>
+                        <a class="button button--primary pricing-button" href=""
+                          >Get Started</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col l-6 m-12 c-12 pricing__plan-wrap">
+                    <div
+                      class="pricing__plan-block pricing__plan-block--primary"
+                    >
+                      <div class="pricing__plan-top-part">
+                        <h3 class="plan-title white">Lite Plan</h3>
+                        <p class="plan-price white"><sup>$</sup>25</p>
+                        <p class="plan-per white">Per Month</p>
+                      </div>
+                      <div class="pricing__plan-bottom-part">
+                        <ul class="plan-features">
+                          <li><span>3GB</span> Storage</li>
+                          <li><span>10GB</span> Bandwidth</li>
+                          <li><span>5</span> Databases</li>
+                          <li><span>30</span> Email Accounts</li>
+                        </ul>
+                        <a
+                          class="
+                            button button--primary
+                            pricing-button pricing-button--primary
+                          "
+                          href=""
+                          >Get Started</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials" id="TESTIMONIALS">
+          <div class="gird testimonials__content">
+            <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <h1 class="testimonials__content-heading heading">
+                  What They Say About Our App.
+                </h1>
+              </div>
+            </div>
+            <div class="row owl__wrap">
+              <div class="testimonials__slider col l-12 m-12 c-12">
+                <div class="slider__content">
+                  <div class="owl__item">
+                    <p>
+                      Your work is going to fill a large part of your life, and
+                      the only way to be truly satisfied is to do what you
+                      believe is great work. And the only way to do great work
+                      is to love what you do. If you haven't found it yet, keep
+                      looking. Don't settle. As with all matters of the heart,
+                      you'll know when you find it.
+                    </p>
+                    <div class="testimonial-author">
+                      <img src="./assets/img/user-02.jpg" alt="Author image" />
+                      <div class="author-info">
+                        Steve Jobs
+                        <span>CEO, Apple.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__slider col l-12 m-12 c-12">
+                <div class="slider__content">
+                  <div class="owl__item">
+                    <p>
+                      Your work is going to fill a large part of your life, and
+                      the only way to be truly satisfied is to do what you
+                      believe is great work. And the only way to do great work
+                      is to love what you do. If you haven't found it yet, keep
+                      looking. Don't settle. As with all matters of the heart,
+                      you'll know when you find it.
+                    </p>
+                    <div class="testimonial-author">
+                      <img src="./assets/img/user-02.jpg" alt="Author image" />
+                      <div class="author-info">
+                        Steve Jobs
+                        <span>CEO, Apple.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dowload grid" id="DOWLOAD">
+          <div class="row">
+            <div class="col l-12 m-12 c-12">
+              <div class="dowload__heading heading">
+                Download Our App Today!
+              </div>
+              <div class="dowload__content">
+                <p class="dowload__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  alias quo assumenda modi pariatur quasi! Ipsa provident
+                  voluptatibus tempora ab quis aut beatae, aspernatur ipsum,
+                  iste omnis magnam hic ea!
+                </p>
+                <ul class="download-badges">
+                  <li>
+                    <a href="#"
+                      ><img src="./assets/img/appstore.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="./assets/img/google-play.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="grid wide footer__content">
+          <div class="row">
+            <div class="col l-3 m-12 c-6">
+              <div class="footer__heading footer__info">
+                <a href="#">Dazzle.</a>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+              <ul class="footer-social-list">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col l-3 m-6 c-6">
+              <h4 class="footer__heading">Contact</h4>
+              <p>
+                1600 Amphitheatre Parkway<br />
+                Mountain View, CA <br />
+                94043 US<br />
+              </p>
+              <p>
+                someone@dazzlesite.com <br />
+                Phone: (+63) 555 1212 <br />
+                Fax: (+63) 555 0100
+              </p>
+            </div>
+            <div class="col l-3 m-6 c-6">
+              <h4 class="footer__heading">Site Links</h4>
+              <ul class="list-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col l-3 m-12 c-6 footer-subscribe">
+              <h3 class="footer__heading">Our Newsletter</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="subscribe-form">
+                <form id="form" novalidate="true">
+                  <input
+                    type="email"
+                    value=""
+                    name="EMAIL"
+                    class="email"
+                    placeholder="Email Address"
+                    required=""
+                  />
+                  <input
+                    class="button"
+                    type="submit"
+                    name="subscribe"
+                    value="Send"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="grid wide">
+            <div class="copywrite">
+              <p class="footer__text">© Copyright Dazzle 2018.</p>
+              <p>
+                Design by <a href="http://www.styleshout.com/">styleshout</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
