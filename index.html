@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="wrapper">
@@ -116,7 +117,7 @@
           </ul>
         </div>
         <div class="about grid wide" id="ABOUT">
-          <div class="row about__intro">
+          <div class="row about__intro" data-aos="fade-up">
             <h1 class="col l-4 m-12 c-12 about__intro-heading heading">
               About Our App
             </h1>
@@ -128,7 +129,7 @@
               enim magna veniam labore veniam sint.
             </p>
           </div>
-          <div class="about__features grid">
+          <div class="about__features grid" data-aos="fade-up">
             <div class="row l-gutter">
               <div class="col l-4 m-6 c-12 m-6 c-12">
                 <i class="far fa-window-maximize icon"></i>
@@ -216,7 +217,7 @@
               </div>
             </div>
           </div>
-          <div class="about__how grid">
+          <div class="about__how grid" data-aos="fade-up">
             <div class="row">
               <h1 class="about__how-heading">How The App Works?</h1>
               <div class="about__how-content grid">
@@ -281,11 +282,11 @@
               </div>
             </div>
           </div>
-          <div class="about__image">
+          <div class="about__image" data-aos="fade-up">
             <img src="./assets/img/app-screens-2800.png" alt="" />
           </div>
         </div>
-        <div class="pricing grid" id="PRICING">
+        <div class="pricing grid" id="PRICING" data-aos="fade-up">
           <div class="row pricing__content">
             <div class="col l-5 m-12 c-12">
               <div class="heading pricing__content-heading">
@@ -354,7 +355,7 @@
             </div>
           </div>
         </div>
-        <div class="testimonials" id="TESTIMONIALS">
+        <div class="testimonials" id="TESTIMONIALS" data-aos="fade-up">
           <div class="gird testimonials__content">
             <div class="row">
               <div class="col l-12 m-12 c-12">
@@ -409,7 +410,7 @@
             </div>
           </div>
         </div>
-        <div class="dowload grid" id="DOWLOAD">
+        <div class="dowload grid" id="DOWLOAD" data-aos="fade-up">
           <div class="row">
             <div class="col l-12 m-12 c-12">
               <div class="dowload__heading heading">
@@ -439,7 +440,7 @@
           </div>
         </div>
       </div>
-      <footer class="footer">
+      <footer class="footer" data-aos="fade-up">
         <div class="grid wide footer__content">
           <div class="row">
             <div class="col l-3 m-12 c-6">
@@ -532,5 +533,14 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 600,
+        easing: "ease-in-sine",
+        delay: 100,
+      });
+    </script>
   </body>
 </html>
