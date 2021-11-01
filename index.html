@@ -35,9 +35,13 @@
     <!-- Link css -->
     <link rel="stylesheet" href="./assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="wrapper">
@@ -117,7 +121,7 @@
           </ul>
         </div>
         <div class="about grid wide" id="ABOUT">
-          <div class="row about__intro" data-aos="fade-up">
+          <div class="row about__intro">
             <h1 class="col l-4 m-12 c-12 about__intro-heading heading">
               About Our App
             </h1>
@@ -129,7 +133,7 @@
               enim magna veniam labore veniam sint.
             </p>
           </div>
-          <div class="about__features grid" data-aos="fade-up">
+          <div class="about__features grid">
             <div class="row l-gutter">
               <div class="col l-4 m-6 c-12 m-6 c-12">
                 <i class="far fa-window-maximize icon"></i>
@@ -217,7 +221,7 @@
               </div>
             </div>
           </div>
-          <div class="about__how grid" data-aos="fade-up">
+          <div class="about__how grid">
             <div class="row">
               <h1 class="about__how-heading">How The App Works?</h1>
               <div class="about__how-content grid">
@@ -282,11 +286,11 @@
               </div>
             </div>
           </div>
-          <div class="about__image" data-aos="fade-up">
+          <div class="about__image">
             <img src="./assets/img/app-screens-2800.png" alt="" />
           </div>
         </div>
-        <div class="pricing grid" id="PRICING" data-aos="fade-up">
+        <div class="pricing grid" id="PRICING">
           <div class="row pricing__content">
             <div class="col l-5 m-12 c-12">
               <div class="heading pricing__content-heading">
@@ -355,7 +359,7 @@
             </div>
           </div>
         </div>
-        <div class="testimonials" id="TESTIMONIALS" data-aos="fade-up">
+        <div class="testimonials" id="TESTIMONIALS">
           <div class="gird testimonials__content">
             <div class="row">
               <div class="col l-12 m-12 c-12">
@@ -398,7 +402,7 @@
                       you'll know when you find it.
                     </p>
                     <div class="testimonial-author">
-                      <img src="./assets/img/user-02.jpg" alt="Author image" />
+                      <img src="./assets/img/user-03.jpg" alt="Author image" />
                       <div class="author-info">
                         Steve Jobs
                         <span>CEO, Apple.</span>
@@ -410,7 +414,7 @@
             </div>
           </div>
         </div>
-        <div class="dowload grid" id="DOWLOAD" data-aos="fade-up">
+        <div class="dowload grid" id="DOWLOAD">
           <div class="row">
             <div class="col l-12 m-12 c-12">
               <div class="dowload__heading heading">
@@ -440,7 +444,7 @@
           </div>
         </div>
       </div>
-      <footer class="footer" data-aos="fade-up">
+      <footer class="footer">
         <div class="grid wide footer__content">
           <div class="row">
             <div class="col l-3 m-12 c-6">
@@ -533,14 +537,18 @@
         </div>
       </footer>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        offset: 200,
-        duration: 600,
-        easing: "ease-in-sine",
-        delay: 100,
-      });
-    </script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/JS/app.js"></script>
   </body>
 </html>

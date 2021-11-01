@@ -369,19 +369,41 @@
   text-align: center;
 }
 .owl__wrap {
-  flex-wrap: nowrap;
-  overflow-x: auto;
   max-width: 900px;
   margin: 72px auto 0;
 }
-.owl__wrap::-webkit-scrollbar {
-  display: none;
-}
 .owl__item p {
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 4.8rem;
   color: #303030;
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  line-height: 1;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+.slick-arrow:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0;
 }
 .testimonial-author {
   margin-top: 42px;
